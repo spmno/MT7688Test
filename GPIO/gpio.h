@@ -46,14 +46,15 @@
 #define GPIO_ERROR_WRITE       -3
 #define GPIO_ERROR_DIRECTION   -4
 
+/*
+class GPIOMmap;
+class GPIOSys;
+
 template <typename Method>
 class GPIOHost : public Method
 {
 };
+*/
 
-class GPIOMmap;
-class GPIOSys;
-
-typedef GPIOHost<GPIOMmap> GPIO;
 
 #endif /* __GPIO_H__ */
